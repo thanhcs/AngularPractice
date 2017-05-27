@@ -7,24 +7,24 @@ import { HttpModule } from '@angular/http';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { GridModule } from '@progress/kendo-angular-grid';
 
+import { CoreModule } from './core/core.module';
+
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
-import { NavBarComponent } from './navbar/navbar.component';
-import { SidebarComponent } from './sidebar/sidebar.component';
+
 
 @NgModule({
   declarations: [
     AppComponent,
-    HomeComponent,
-    NavBarComponent,
-    SidebarComponent
+    HomeComponent
   ],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
     FormsModule,
     GridModule,
-    HttpModule
+    HttpModule,
+    CoreModule
   ],
   providers: [],
   bootstrap: [AppComponent]
