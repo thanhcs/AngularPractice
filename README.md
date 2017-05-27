@@ -11,6 +11,9 @@
 [STYLE 04-12](https://angular.io/docs/ts/latest/guide/style-guide.html#04-12)
 
 
+# Kendo Document
+
+[Link](http://www.telerik.com/kendo-angular-ui/)
 
 # Tricks with Node
 
