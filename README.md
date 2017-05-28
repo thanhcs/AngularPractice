@@ -15,7 +15,12 @@
 
 [Link](http://www.telerik.com/kendo-angular-ui/)
 
-# Tricks with Node
+# Tricks
+
+## Debug With VSC
+
+- Add launch.json for VSC's debug configuration
+- Run ng serve before running VSC's debug
 
 ## Useful Packages
 
