@@ -10,13 +10,10 @@ import { GridModule } from '@progress/kendo-angular-grid';
 import { CoreModule } from './core/core.module';
 
 import { AppComponent } from './app.component';
-import { HomeComponent } from './home/home.component';
-
 
 @NgModule({
   declarations: [
-    AppComponent,
-    HomeComponent
+    AppComponent
   ],
   imports: [
     BrowserModule,
