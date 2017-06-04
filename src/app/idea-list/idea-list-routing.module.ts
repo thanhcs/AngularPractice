@@ -7,11 +7,16 @@ import { IdeaListComponent } from './idea-list.component';
 
 const routes: Routes = [
   {
-    path: '',
+    path: 'idea-list',
     component: IdeaListComponent,
     children: [
       {
         path: '',
+        pathMatch: 'full',
+        redirectTo: 'popular'
+      },
+      {
+        path: 'popular',
         component: PopularComponent
       },
       {
