@@ -1,11 +1,12 @@
 import { NgModule } from '@angular/core';
-import { CommonModule } from '@angular/common';
-import { PopularComponent } from './popular/popular.component';
+
+import { IdeaListRoutingModule, routedComponent } from './idea-list-routing.module';
+
 
 @NgModule({
   imports: [
-    CommonModule
+    IdeaListRoutingModule
   ],
-  declarations: [PopularComponent]
+  declarations: [ routedComponent ]
 })
 export class IdeaListModule { }

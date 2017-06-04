@@ -1,12 +1,13 @@
 import { NgModule } from '@angular/core';
-import { CommonModule } from '@angular/common';
 import { CommentComponent } from './comment/comment.component';
 import { ActionBarComponent } from './action-bar/action-bar.component';
+import { IdeaDetailComponent } from './idea-detail.component';
+import { IdeaDetailRoutingModule } from './idea-detail-routing.module';
 
 @NgModule({
   imports: [
-    CommonModule
+    IdeaDetailRoutingModule
   ],
-  declarations: [CommentComponent, ActionBarComponent]
+  declarations: [CommentComponent, ActionBarComponent, IdeaDetailComponent]
 })
 export class IdeaDetailModule { }
