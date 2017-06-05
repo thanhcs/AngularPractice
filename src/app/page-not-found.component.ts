@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-404',
+  selector: 'ideatank-404',
   template: `Wrong Page`
 })
 
