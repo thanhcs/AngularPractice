@@ -9,7 +9,6 @@ import { CoreModule } from './core/core.module';
 import { AppComponent } from './app.component';
 import { PageNotFoundComponent } from './page-not-found.component';
 import { AppRoutingModule } from './app-routing.module';
-import { IdeaListModule } from './idea-list/idea-list.module';
 
 @NgModule({
   declarations: [
@@ -19,7 +18,6 @@ import { IdeaListModule } from './idea-list/idea-list.module';
   imports: [
     BrowserModule,
     FormsModule,
-    IdeaListModule,
     AppRoutingModule,
     CoreModule,
     HttpModule

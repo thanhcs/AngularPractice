@@ -3,9 +3,8 @@ import {PreloadAllModules, Routes, RouterModule } from '@angular/router';
 import { PageNotFoundComponent } from 'app/page-not-found.component';
 
 const routes: Routes = [
-  { path: '', pathMatch: 'full', redirectTo: 'idea-list'},
-  { path: 'idea-list', loadChildren: './idea-list/idea-list.module#IdeaListModule'},
-  { path: 'idea-detail', loadChildren: './idea-detail/idea-detail.module#IdeaDetailModule'},
+  { path: '', pathMatch: 'full', redirectTo: 'ideas'},
+  { path: 'ideas', loadChildren: './ideas/ideas.module#IdeasModule'},
   { path: '**', pathMatch: 'full', component: PageNotFoundComponent }
 ];
 

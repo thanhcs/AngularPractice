@@ -7,7 +7,7 @@ import { IdeaListComponent } from './idea-list.component';
 
 const routes: Routes = [
   {
-    path: 'idea-list',
+    path: '',
     component: IdeaListComponent,
     children: [
       {
