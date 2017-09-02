@@ -5,7 +5,7 @@ import { CommentComponent } from './comment/comment.component';
 import { ActionBarComponent } from './action-bar/action-bar.component';
 
 const routes: Routes = [
-  { path: '', component: IdeaDetailComponent }
+  { path: '', component: IdeaDetailComponent, data: { breadcrumb: 'idea-detail'} }
 ];
 
 @NgModule({

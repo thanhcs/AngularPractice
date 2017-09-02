@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'ideatank-popular',
+  selector: 'framework-popular',
   templateUrl: './popular.component.html',
   styleUrls: ['./popular.component.scss']
 })

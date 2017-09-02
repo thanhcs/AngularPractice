@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'ideatank-action-bar',
+  selector: 'framework-action-bar',
   templateUrl: './action-bar.component.html',
   styleUrls: ['./action-bar.component.scss']
 })

@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'ideatank-comment',
+  selector: 'framework-comment',
   templateUrl: './comment.component.html',
   styleUrls: ['./comment.component.scss']
 })

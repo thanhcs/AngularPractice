@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 
 @Component({
-  // selector: 'ideatank-idea-list',
+  // selector: 'framework-idea-list',
   template: 'IdeaList<router-outlet></router-outlet>'
 })
 

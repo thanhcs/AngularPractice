@@ -5,7 +5,7 @@ class MenuItem {
 }
 
 @Component({
-  selector: 'ideatank-navbar',
+  selector: 'framework-navbar',
   templateUrl: './navbar.component.html',
   styleUrls: ['./navbar.component.scss']
 })

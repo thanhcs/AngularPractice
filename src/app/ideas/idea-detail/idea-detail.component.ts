@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'ideatank-idea-detail',
+  selector: 'framework-idea-detail',
   templateUrl: './idea-detail.component.html',
   styleUrls: ['./idea-detail.component.scss']
 })

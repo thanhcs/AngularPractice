@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'ideatank-new',
+  selector: 'framework-new',
   templateUrl: './new.component.html',
   styleUrls: ['./new.component.scss']
 })

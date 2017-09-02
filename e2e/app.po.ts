@@ -6,6 +6,6 @@ export class AngularDemoPage {
   }
 
   getParagraphText() {
-    return element(by.css('ideatank-root h1')).getText();
+    return element(by.css('framework-root h1')).getText();
   }
 }

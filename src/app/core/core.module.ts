@@ -1,10 +1,12 @@
 import { NgModule, Optional, SkipSelf } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterModule } from '@angular/router';
+import './rxjs-exts';
 
 import { NavBarComponent } from './navbar/navbar.component';
 import { SidebarComponent } from './sidebar/sidebar.component';
-import { throwIfAlreadyLoaded } from './mdule-import-guard';
+import { throwIfAlreadyLoaded } from './module-import-guard';
+import { BreadcrumbsComponent } from './breadcrumbs/breadcrumbs.component';
 
 @NgModule({
   imports: [
@@ -13,11 +15,13 @@ import { throwIfAlreadyLoaded } from './mdule-import-guard';
   ],
   declarations: [
     NavBarComponent,
-    SidebarComponent
+    SidebarComponent,
+    BreadcrumbsComponent
   ],
   exports: [
     NavBarComponent,
-    SidebarComponent
+    SidebarComponent,
+    BreadcrumbsComponent
   ]
 })
 export class CoreModule {
