@@ -8,7 +8,7 @@ const routes: Routes = [
     children: [
       { path: '', pathMatch: 'full', redirectTo: 'idea-list'},
       { path: 'idea-list', loadChildren: './idea-list/idea-list.module#IdeaListModule' },
-      { path: 'idea-detail', loadChildren: './idea-detail/idea-detail.module#IdeaDetailModule', data: { breadcrumb: 'idea-detail'}}
+      { path: 'idea-detail', loadChildren: './idea-detail/idea-detail.module#IdeaDetailModule' }
     ]
   }
 ];
