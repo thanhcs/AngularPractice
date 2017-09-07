@@ -4,11 +4,11 @@ import { IdeasComponent } from './ideas.component';
 
 const routes: Routes = [
   {
-    path: '', component: IdeasComponent, data: {breadcrumb: 'ideas'},
+    path: '', component: IdeasComponent,
     children: [
       { path: '', pathMatch: 'full', redirectTo: 'idea-list'},
-      { path: 'idea-list', loadChildren: './idea-list/idea-list.module#IdeaListModule' },
-      { path: 'idea-detail', loadChildren: './idea-detail/idea-detail.module#IdeaDetailModule' }
+      { path: 'idea-list', loadChildren: './idea-list/idea-list.module#IdeaListModule', data: { breadcrumb: 'idea-list'}},
+      { path: 'idea-detail', loadChildren: './idea-detail/idea-detail.module#IdeaDetailModule', data: { breadcrumb: 'idea-detail'}}
     ]
   }
 ];

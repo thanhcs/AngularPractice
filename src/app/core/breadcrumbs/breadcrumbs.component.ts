@@ -56,12 +56,14 @@ export class BreadcrumbsComponent implements OnInit {
 
       // get route's URL
       const routeUrl = child.snapshot.url.map(segment => segment.path).join('/');
-      console.log(child.snapshot.url);
 
-      console.log(url);
-      console.log(routeUrl);
+      // skip redirect routing
+      if (routeUrl === '') {
+        return this.getBreadcrumbs(child, url, breadcrumbs);
+      }
+
       // append route's url to url
-      url += `/$(routeUrl)`;
+      url += `/${routeUrl}`;
 
       // add new breadcrumb
       const breadcrumb: Breadcrumb = {
@@ -69,6 +71,8 @@ export class BreadcrumbsComponent implements OnInit {
         params: child.snapshot.params,
         url: url
       };
+
+      console.log(breadcrumb);
 
       breadcrumbs.push(breadcrumb);
 

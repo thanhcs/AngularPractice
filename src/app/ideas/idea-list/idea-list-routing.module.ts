@@ -9,7 +9,6 @@ const routes: Routes = [
   {
     path: '',
     component: IdeaListComponent,
-    data: { breadcrumb: 'idea-list'},
     children: [
       {
         path: '',
@@ -24,7 +23,7 @@ const routes: Routes = [
       {
         path: 'new',
         component: NewComponent,
-        data: { breadcrumb: 'new' }
+        data: { breadcrumb: 'new', test: 'test' }
       }
     ]
   }
