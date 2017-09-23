@@ -4,7 +4,7 @@ import { PageNotFoundComponent } from 'app/page-not-found.component';
 
 const routes: Routes = [
   {
-    path: ':test',
+    path: '',
     children: [
       { path: '', pathMatch: 'full', redirectTo: 'ideas' },
       { path: 'ideas', loadChildren: './ideas/ideas.module#IdeasModule', data: { breadcrumb: 'ideas' } },
